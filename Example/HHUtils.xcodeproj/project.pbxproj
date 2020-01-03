@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		3E26F2D30C129854CB7CA6B3 /* Pods-HHUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-HHUtils_Tests/Pods-HHUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		56CE073BD7D279C653C04F7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		56CE073BD7D279C653C04F7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HHUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79955E4B3AC78D501D4053AD /* Pods_HHUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1ED7C1091170279014DBF90 /* HHUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HHUtils.podspec; path = ../HHUtils.podspec; sourceTree = "<group>"; };
-		D265CEF87641912610FFA892 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1ED7C1091170279014DBF90 /* HHUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HHUtils.podspec; path = ../HHUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D265CEF87641912610FFA892 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E20BBFB02F7D2F05A243BD0C /* Pods_HHUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31DAE5962B143059C7FED7F /* Pods-HHUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-HHUtils_Example/Pods-HHUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EDED27D9CD8C52AE5D6D0D9A /* Pods-HHUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-HHUtils_Example/Pods-HHUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				F6FB179462593FCDCE79A6A0 /* Pods-HHUtils_Tests.debug.xcconfig */,
 				3E26F2D30C129854CB7CA6B3 /* Pods-HHUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
